@@ -1,3 +1,4 @@
+TERMO DE ABERTURA DO PROJETO (PI) – CORRIGIDO
 1. Identificação do Projeto
 
 Nome do Projeto: Sistema Web de Gestão de Ordens de Serviço da Moove Bikes
@@ -12,7 +13,7 @@ Responsável pelo Desenvolvimento: Vinicius, Maria, Felipe e Pedro
 
 2. Justificativa do Projeto
 
-A Moove Bikes necessita de uma solução para organizar e controlar os atendimentos e as ordens de serviço realizadas em sua oficina. O processo atual pode gerar dificuldades na consulta de informações, acompanhamento dos serviços e manutenção do histórico dos clientes.
+A Moove Bikes necessita de uma solução para organizar e controlar os atendimentos e as ordens de serviço realizadas em sua oficina. O processo atual pode gerar dificuldades na consulta de informações, no acompanhamento dos serviços e na manutenção do histórico dos clientes.
 
 Dessa forma, o desenvolvimento de um sistema informatizado permitirá maior organização, agilidade, segurança e confiabilidade na gestão dos serviços prestados, contribuindo para a melhoria dos processos internos da empresa.
 
@@ -25,8 +26,8 @@ Cadastrar clientes;
 Registrar ordens de serviço;
 Armazenar informações das bicicletas e dos problemas relatados;
 Atualizar o status dos serviços em andamento;
-Permitir consultas por cliente ou número da ordem de serviço;
-Manter histórico dos serviços realizados;
+Permitir consultas de ordens de serviço por cliente, número ou data;
+Manter histórico dos serviços realizados por cliente;
 Possibilitar a edição de informações cadastradas;
 Organizar as informações em uma interface simples e intuitiva.
 5. Escopo do Projeto
@@ -35,10 +36,11 @@ Cadastro de clientes;
 Cadastro de ordens de serviço;
 Controle do status dos serviços;
 Histórico de atendimentos;
-Consulta por cliente ou número da ordem de serviço;
+Consulta de ordens de serviço por cliente, número ou data;
 Edição de registros;
 Armazenamento de informações das bicicletas;
 Interface web simples e intuitiva;
+Visualização de ordens de serviço do dia (agenda);
 Utilização exclusiva em computadores (desktop e notebook).
 Não Inclui
 Sistema de pagamento online;
@@ -52,35 +54,23 @@ Chat com clientes.
 Requisitos Funcionais
 
 RF01: O sistema deve permitir o cadastro de clientes.
-
 RF02: O sistema deve permitir o registro de ordens de serviço.
-
 RF03: O sistema deve permitir a atualização do status da ordem de serviço.
-
-RF04: O sistema deve permitir consultar ordens de serviço por cliente ou número.
-
+RF04: O sistema deve permitir consultar ordens de serviço por cliente, número ou data.
 RF05: O sistema deve armazenar informações da bicicleta (tipo, modelo e descrição do problema).
-
 RF06: O sistema deve exibir uma lista organizada de ordens de serviço.
-
 RF07: O sistema deve manter histórico de serviços por cliente.
-
 RF08: O sistema deve permitir edição de informações cadastradas.
+RF09: O sistema deve permitir visualizar as ordens de serviço do dia (agenda de serviços).
 
 Requisitos Não Funcionais
 
 RNF01: O sistema deve ser simples e fácil de usar, possuindo uma interface intuitiva.
-
-RNF02: O sistema deverá ser desenvolvido exclusivamente como aplicação web, sendo acessado apenas por meio de navegadores em computadores (desktop e notebook). Não haverá suporte para smartphones, tablets ou aplicativos móveis.
-
+RNF02: O sistema deverá ser desenvolvido exclusivamente como aplicação web, acessado apenas por navegadores em computadores (desktop e notebook).
 RNF03: O sistema deve apresentar carregamento rápido das informações.
-
 RNF04: O sistema deve garantir a organização e a segurança dos dados armazenados.
-
 RNF05: O sistema deve evitar duplicação de registros de clientes e ordens de serviço.
-
 RNF06: O sistema deve possuir um layout limpo e organizado.
-
 RNF07: O sistema deve ser desenvolvido de forma que facilite futuras manutenções e atualizações do código.
 
 7. Recursos Necessários
@@ -127,6 +117,7 @@ Maior controle sobre os atendimentos realizados;
 Redução da perda de informações;
 Agilidade na consulta de dados;
 Manutenção do histórico de serviços dos clientes;
+Visualização das ordens de serviço do dia (agenda);
 Maior eficiência nos processos internos da Moove Bikes;
 Centralização das informações em um único sistema.
 11. Critérios de Sucesso
