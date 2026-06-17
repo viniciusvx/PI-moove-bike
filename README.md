@@ -1,143 +1,228 @@
-TERMO DE ABERTURA DO PROJETO (PI) – CORRIGIDO
-1. Identificação do Projeto
+# TERMO DE ABERTURA DO PROJETO (TAP)
 
-Nome do Projeto: Sistema Web de Gestão de Ordens de Serviço da Moove Bikes
+# 1. Identificação do Projeto
 
-Empresa: Moove Bikes
+**Nome do Projeto:** Sistema Web e Mobile de Gestão de Backlog e Ordens de Serviço da Moove Bikes
 
-Data de Início: Junho de 2026
+**Empresa:** Moove Bikes
 
-Data Prevista de Conclusão: Junho de 2027
+**Data de Início:** Junho de 2026
 
-Responsável pelo Desenvolvimento: Vinicius, Maria, Felipe e Pedro
+**Data Prevista de Conclusão:** Junho de 2027
 
-2. Justificativa do Projeto
+**Responsáveis pelo Desenvolvimento:** Vinicius, Maria, Felipe e Pedro
 
-A Moove Bikes necessita de uma solução para organizar e controlar os atendimentos e as ordens de serviço realizadas em sua oficina. O processo atual pode gerar dificuldades na consulta de informações, no acompanhamento dos serviços e na manutenção do histórico dos clientes.
+---
 
-Dessa forma, o desenvolvimento de um sistema informatizado permitirá maior organização, agilidade, segurança e confiabilidade na gestão dos serviços prestados, contribuindo para a melhoria dos processos internos da empresa.
+# 2. Justificativa do Projeto
 
-3. Objetivo Geral
+Atualmente, a Moove Bikes enfrenta dificuldades para acompanhar e priorizar os serviços realizados na oficina, ocasionando atrasos, falta de visibilidade sobre os atendimentos em andamento e dificuldade na localização das informações dos clientes e veículos.
 
-Desenvolver um sistema web de gestão para a Moove Bikes, capaz de registrar, acompanhar e organizar ordens de serviço de manutenção de bicicletas, proporcionando maior eficiência e confiabilidade nos processos internos da empresa.
+Dessa forma, torna-se necessária a implementação de uma solução que centralize todas as informações em um único ambiente, permitindo uma gestão visual, organizada e eficiente do fluxo de trabalho, proporcionando maior produtividade e qualidade no atendimento.
 
-4. Objetivos Específicos
-Cadastrar clientes;
-Registrar ordens de serviço;
-Armazenar informações das bicicletas e dos problemas relatados;
-Atualizar o status dos serviços em andamento;
-Permitir consultas de ordens de serviço por cliente, número ou data;
-Manter histórico dos serviços realizados por cliente;
-Possibilitar a edição de informações cadastradas;
-Organizar as informações em uma interface simples e intuitiva.
-5. Escopo do Projeto
-Inclui
-Cadastro de clientes;
-Cadastro de ordens de serviço;
-Controle do status dos serviços;
-Histórico de atendimentos;
-Consulta de ordens de serviço por cliente, número ou data;
-Edição de registros;
-Armazenamento de informações das bicicletas;
-Interface web simples e intuitiva;
-Visualização de ordens de serviço do dia (agenda);
-Utilização exclusiva em computadores (desktop e notebook).
-Não Inclui
-Sistema de pagamento online;
-Loja virtual;
-Controle avançado de estoque;
-Sistema de entregas;
-Aplicativo para smartphones;
-Aplicativo para tablets;
-Chat com clientes.
-6. Requisitos Principais
-Requisitos Funcionais
+---
 
-RF01: O sistema deve permitir o cadastro de clientes.
-RF02: O sistema deve permitir o registro de ordens de serviço.
-RF03: O sistema deve permitir a atualização do status da ordem de serviço.
-RF04: O sistema deve permitir consultar ordens de serviço por cliente, número ou data.
-RF05: O sistema deve armazenar informações da bicicleta (tipo, modelo e descrição do problema).
-RF06: O sistema deve exibir uma lista organizada de ordens de serviço.
-RF07: O sistema deve manter histórico de serviços por cliente.
-RF08: O sistema deve permitir edição de informações cadastradas.
-RF09: O sistema deve permitir visualizar as ordens de serviço do dia (agenda de serviços).
+# 3. Objetivo Geral
 
-Requisitos Não Funcionais
+Desenvolver um sistema web e mobile para gerenciamento de backlog e ordens de serviço da oficina da Moove Bikes, permitindo controlar clientes, veículos, prioridades, prazos e acompanhar os serviços em tempo real.
 
-RNF01: O sistema deve ser simples e fácil de usar, possuindo uma interface intuitiva.
-RNF02: O sistema deverá ser desenvolvido exclusivamente como aplicação web, acessado apenas por navegadores em computadores (desktop e notebook).
-RNF03: O sistema deve apresentar carregamento rápido das informações.
-RNF04: O sistema deve garantir a organização e a segurança dos dados armazenados.
-RNF05: O sistema deve evitar duplicação de registros de clientes e ordens de serviço.
-RNF06: O sistema deve possuir um layout limpo e organizado.
-RNF07: O sistema deve ser desenvolvido de forma que facilite futuras manutenções e atualizações do código.
+---
 
-7. Recursos Necessários
-Recursos Humanos
-Desenvolvedor responsável pelo projeto;
-Proprietário da Moove Bikes para levantamento dos requisitos;
-Usuários responsáveis pelos testes do sistema.
-Recursos de Software
-Python;
-Django;
-HTML;
-CSS;
-JavaScript;
-SQLite ou MySQL;
-Visual Studio Code;
-Git;
-GitHub.
-Recursos de Hardware
-Computador para desenvolvimento;
-Computador para utilização do sistema;
-Acesso à internet.
-8. Cronograma Resumido
-Etapa	Período
-Levantamento de requisitos e elaboração do briefing	Junho de 2026
-Planejamento e modelagem do sistema	Julho de 2026
-Desenvolvimento do banco de dados	Agosto de 2026
-Desenvolvimento das telas e funcionalidades	Setembro de 2026 a Março de 2027
-Testes e correções	Abril e Maio de 2027
-Finalização da documentação	Junho de 2027
-Entrega do projeto	Junho de 2027
-9. Restrições
-O sistema será destinado exclusivamente ao uso interno da Moove Bikes;
-O sistema será desenvolvido exclusivamente como aplicação web;
-O sistema será acessado apenas por computadores (desktop e notebook);
-Não haverá suporte para smartphones ou tablets;
-Não será desenvolvido aplicativo mobile;
-Não haverá sistema de pagamento online;
-Não haverá loja virtual;
-Não haverá controle avançado de estoque;
-O prazo máximo para conclusão do projeto será junho de 2027.
-10. Benefícios Esperados
-Melhor organização das ordens de serviço;
-Maior controle sobre os atendimentos realizados;
-Redução da perda de informações;
-Agilidade na consulta de dados;
-Manutenção do histórico de serviços dos clientes;
-Visualização das ordens de serviço do dia (agenda);
-Maior eficiência nos processos internos da Moove Bikes;
-Centralização das informações em um único sistema.
-11. Critérios de Sucesso
+# 4. Objetivos Específicos
+
+* Cadastrar clientes e veículos;
+* Registrar ordens de serviço;
+* Controlar prioridades e prazos;
+* Organizar os serviços por meio de um quadro Kanban;
+* Monitorar atrasos e serviços próximos do vencimento;
+* Permitir consultas e filtros avançados;
+* Gerar indicadores para gestão da oficina;
+* Disponibilizar notificações automáticas;
+* Armazenar histórico das alterações realizadas no sistema.
+
+---
+
+# 5. Escopo do Projeto
+
+## Inclui
+
+* Cadastro de clientes;
+* Cadastro de veículos;
+* Cadastro de ordens de serviço;
+* Controle de prioridades;
+* Controle de prazos;
+* Dashboard gerencial;
+* Sistema de backlog em Kanban;
+* Controle de usuários e permissões;
+* Notificações automáticas;
+* Exportação de relatórios em PDF e Excel;
+* Histórico de alterações e auditoria;
+* Banco de dados em nuvem;
+* Aplicação web responsiva;
+* Aplicativo para Android.
+
+## Não Inclui
+
+* Sistema financeiro completo;
+* Integração com meios de pagamento;
+* Loja virtual;
+* Controle avançado de estoque;
+* Integração com WhatsApp;
+* Integração com ERP de terceiros.
+
+---
+
+# 6. Requisitos Principais
+
+## Requisitos Funcionais
+
+**RF01:** O sistema deve permitir o cadastro de clientes.
+
+**RF02:** O sistema deve permitir o cadastro de veículos.
+
+**RF03:** O sistema deve permitir registrar ordens de serviço.
+
+**RF04:** O sistema deve permitir associar clientes aos veículos.
+
+**RF05:** O sistema deve permitir associar veículos às ordens de serviço.
+
+**RF06:** O sistema deve permitir definir prioridades dos atendimentos.
+
+**RF07:** O sistema deve permitir controlar prazos de entrega.
+
+**RF08:** O sistema deve permitir visualizar as ordens em um quadro Kanban.
+
+**RF09:** O sistema deve permitir movimentar os cartões entre as etapas do fluxo.
+
+**RF10:** O sistema deve identificar serviços atrasados automaticamente.
+
+**RF11:** O sistema deve exibir alertas visuais para serviços próximos do vencimento.
+
+**RF12:** O sistema deve permitir pesquisar informações por cliente, telefone, número da OS, modelo do veículo, status, prioridade e técnico responsável.
+
+**RF13:** O sistema deve apresentar um dashboard gerencial.
+
+**RF14:** O sistema deve permitir cadastro de técnicos responsáveis.
+
+**RF15:** O sistema deve permitir anexar fotos às ordens de serviço.
+
+**RF16:** O sistema deve armazenar histórico das alterações realizadas.
+
+**RF17:** O sistema deve permitir exportar informações em PDF e Excel.
+
+---
+
+## Requisitos Não Funcionais
+
+**RNF01:** O sistema deve possuir interface simples e intuitiva.
+
+**RNF02:** O sistema deverá ser desenvolvido como uma aplicação web responsiva.
+
+**RNF03:** O sistema deverá possuir uma versão para dispositivos Android.
+
+**RNF04:** Os dados deverão ser armazenados em banco de dados em nuvem.
+
+**RNF05:** O sistema deverá possuir controle de usuários e permissões.
+
+**RNF06:** O sistema deverá realizar backup automático das informações.
+
+**RNF07:** O sistema deverá apresentar carregamento rápido.
+
+**RNF08:** O sistema deverá garantir a segurança dos dados armazenados.
+
+**RNF09:** O sistema deverá manter histórico de alterações e auditoria.
+
+**RNF10:** O sistema deverá possuir código de fácil manutenção.
+
+---
+
+# 7. Recursos Necessários
+
+## Recursos Humanos
+
+* Equipe de desenvolvimento;
+* Proprietário da Moove Bikes;
+* Técnicos da oficina;
+* Usuários responsáveis pelos testes.
+
+## Recursos de Software
+
+* Python;
+* Django;
+* HTML;
+* CSS;
+* JavaScript;
+* Bootstrap;
+* SQLite ou PostgreSQL;
+* Visual Studio Code;
+* Git e GitHub.
+
+## Recursos de Hardware
+
+* Computadores;
+* Smartphones Android;
+* Acesso à internet;
+* Servidor em nuvem.
+
+---
+
+# 8. Cronograma Resumido
+
+| Etapa                       | Período                          |
+| --------------------------- | -------------------------------- |
+| Levantamento de requisitos  | Junho de 2026                    |
+| Planejamento e modelagem    | Julho de 2026                    |
+| Modelagem do banco de dados | Agosto de 2026                   |
+| Desenvolvimento do sistema  | Setembro de 2026 a Março de 2027 |
+| Testes e correções          | Abril e Maio de 2027             |
+| Finalização e documentação  | Junho de 2027                    |
+| Entrega do projeto          | Junho de 2027                    |
+
+---
+
+# 9. Restrições
+
+* O projeto será desenvolvido conforme as necessidades da Moove Bikes;
+* O prazo máximo de entrega será junho de 2027;
+* Funcionalidades adicionais deverão ser avaliadas antes da implementação;
+* Integrações externas não fazem parte do escopo inicial.
+
+---
+
+# 10. Benefícios Esperados
+
+* Maior organização da oficina;
+* Redução de atrasos;
+* Melhor controle dos atendimentos;
+* Maior produtividade da equipe;
+* Melhor acompanhamento dos serviços;
+* Centralização das informações;
+* Agilidade na localização de dados;
+* Melhor experiência para clientes e colaboradores.
+
+---
+
+# 11. Critérios de Sucesso
 
 O projeto será considerado bem-sucedido caso:
 
-Todas as funcionalidades previstas sejam implementadas;
-O sistema permita o gerenciamento eficiente das ordens de serviço;
-Os usuários consigam utilizar o sistema de forma simples e intuitiva;
-As informações sejam armazenadas de maneira organizada e segura;
-O sistema seja concluído dentro do prazo estabelecido;
-O sistema atenda às necessidades da Moove Bikes.
-12. Aprovação do Projeto
+* Todas as funcionalidades previstas sejam implementadas;
+* O sistema permita gerenciar os serviços da oficina de forma eficiente;
+* Os usuários consigam utilizar a plataforma com facilidade;
+* As informações estejam organizadas e seguras;
+* O sistema atenda às necessidades da Moove Bikes;
+* O projeto seja concluído dentro do prazo estabelecido.
 
-Ao aprovar este Termo de Abertura, as partes envolvidas concordam com os objetivos, escopo, requisitos e restrições estabelecidos para o desenvolvimento do Sistema Web de Gestão de Ordens de Serviço da Moove Bikes.
+---
 
-Responsável pelo Projeto: ______________________________________
+# 12. Aprovação do Projeto
 
-Representante da Moove Bikes: __________________________________
+Ao aprovar este Termo de Abertura, as partes envolvidas concordam com os objetivos, requisitos, escopo e restrições definidos para o desenvolvimento do Sistema Web e Mobile de Gestão de Backlog e Ordens de Serviço da Moove Bikes.
 
-Data da Aprovação: ______ / ______ / __________
+**Responsável pelo Projeto:** ______________________________________
 
-Assinatura: ______________________________________
+**Representante da Moove Bikes:** __________________________________
+
+**Data da Aprovação:** ______ / ______ / __________
+
+**Assinatura:** ______________________________________
